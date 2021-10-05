@@ -10,11 +10,9 @@ public class courseProgramme {
     private DateTime startDate;
     private DateTime endDate;
 
-    public courseProgramme( String name,List<module> Modules,List<student> Students,DateTime startDate,DateTime endDate)
+    public courseProgramme( String name,DateTime startDate,DateTime endDate)
     {
         this.name=name;
-        this.Modules =Modules;
-        this.Students=Students;
         this.startDate=startDate;
         this.endDate=endDate;
     }
