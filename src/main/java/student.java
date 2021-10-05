@@ -6,15 +6,15 @@ public class student {
     private String DOB;
     private int ID;
     private String username;
-    private List<String> modules;
+    private List<module> modules;
 
-    public student ( String Name ,int Age,String DOB ,int ID,List <String> modules )
+    public student ( String Name ,int Age,String DOB ,int ID, )
     {
         this.Name = Name;
         this.Age=Age;
         this.DOB = DOB ;
         this.ID=ID;
-        this.modules=modules;
+     
 
     }
 
@@ -58,11 +58,11 @@ public class student {
         this.username = username;
     }
 
-    public List<String> getModules() {
+    public List<module> getModules() {
         return modules;
     }
 
-    public void setModules(List<String> modules) {
+    public void setModules(List<module> modules) {
         this.modules = modules;
     }
 
