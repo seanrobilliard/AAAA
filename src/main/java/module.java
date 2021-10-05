@@ -4,16 +4,15 @@ public class module {
     private String name;
     private String id;
     private List<student> Students;
-    private List<String> Courses;
+    private List<courseProgramme> Courses;
 
 
-    public module (String name,String id,List<student> Students,List<String> Courses )
+    public module (String name,String id )
     {
 
         this.name =name;
         this.id=id;
-        this.Students=Students;
-        this.Courses=Courses;
+       
 
 
     }
@@ -42,11 +41,11 @@ public class module {
         this.Students = Students;
     }
 
-    public List<String> getCourses() {
+    public List<courseProgramme> getCourses() {
         return Courses;
     }
 
-    public void setCourses(List<String> Courses) {
+    public void setCourses(List<courseProgramme> Courses) {
         this.Courses = Courses;
     }
 
